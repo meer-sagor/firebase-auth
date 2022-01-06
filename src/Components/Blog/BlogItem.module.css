@@ -1,0 +1,21 @@
+.blog {
+  height: 30rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-img img {
+  width: 7rem;
+}
+
+.blog-content h1 {
+  margin-bottom: 1rem;
+}
+.blog-content p {
+  margin-bottom: 1rem;
+}
+.blog-actions {
+  text-transform: capitalize;
+}

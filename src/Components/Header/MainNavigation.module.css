@@ -1,0 +1,21 @@
+.nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-list__item {
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.nav-list__item a {
+  text-transform: capitalize;
+  color: inherit;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+.nav-list__item a:hover,
+.nav-list__item a:active,
+.nav-list__item a.active {
+  color: #e6fcfc;
+}

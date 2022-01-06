@@ -1,0 +1,22 @@
+.button {
+  padding: 0.5rem 1rem;
+  background: lightsalmon;
+  color: white;
+  font-size: inherit;
+  border: 1px solid transparent;
+  text-transform: capitalize;
+  border-radius: .3em;
+  cursor: pointer;
+}
+.button:focus {
+  outline: none;
+}
+
+.link{
+  color: lightgrey;
+}
+
+.button:disabled{
+  background: gray;
+  cursor: not-allowed;
+}
